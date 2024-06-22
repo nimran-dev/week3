@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible="IE="edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <title>
+            All about Cats
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+
+            <!--using anchor-->
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+<style>
+    div{
+        border-style: solid;
+        border-color: black;
+        padding: 5px;
+        margin: 5px;
+    }
+</style>
+<!--creating navbar-->
+<body class="container">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="about.html">All Cats</a>
+    <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="navbarNavdropdown"
+    aria-container="navbarNavdropdown" aria-expandable="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavdropdown">
+        
+        <!--making unorderd list-->
+        
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Request Info</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                href="#" id="navbardropdownmenulink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             dropdown 
+            </a>
+
+               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenulink">
+                <a class="dropdown-item" href="#">Item one</a>
+                <a class="dropdown-item" href="#">Item two</a>
+                <a class="dropdown-item" href="#">Item three</a>
+               </div>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+    <h1>
+        How to know the right breed for you
+    </h1>
+    <!--using grid-->
+    <div class="container">
+        <div class="row">
+        <div class="col-sm">
+            By tail
+        </div>
+    <div class="col-sm">
+        By eye color
+    </div>
+    <div class="col-sm">
+        By height
+    </div>
+    </div>
+    <div class="container fluid">
+        
+        <div class="row">
+        <div class="col-sm">
+            By size
+        </div>
+    <div class="col-sm">
+        By face
+    </div>
+    <div class="col-sm">
+        By ears
+    </div>
+        </div>
+        </div>
+    </body>
